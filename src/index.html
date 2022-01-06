@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Starship game</title>
+        <meta name="keywords" content="animation" />
+
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./style/style.css"
+            title="starship style"
+        />
+    </head>
+
+    <body>
+        <canvas id="stars" width="1000" height="400" tabindex="1"> </canvas>
+
+        <div id="control">
+            <button id="startStop">
+                <img
+                    id="startStopImage"
+                    src="images/Start.png"
+                    height="32"
+                    width="96"
+                    alt="Satrt and Stop"
+                />
+            </button>
+            <button id="nouvelleSoucoupe">
+                1
+                <img
+                    src="images/flyingSaucer-petit.png"
+                    width="48"
+                    alt="nouvelle soucoupe volante"
+                />
+            </button>
+            <button id="flotteSoucoupes">
+                &#8734;
+                <img
+                    src="images/flyingSaucer-petit.png"
+                    width="48"
+                    alt="nouvelle soucoupe volante"
+                />
+            </button>
+            score : <span id="score"> 0 </span>
+        
+            <button id="sound">
+                <img
+                    id="soundImg"
+                    src="images/mute.png"
+                    width="32"
+                    alt="mute"
+                />
+            </button>
+            <button id="music">
+                <img
+                    id="musicImg"
+                    src="images/play.png"
+                    width="32"
+                    alt="Play music"
+                />
+            </button>
+        </div>
+        <table>
+        <thead>
+            <tr>
+                <th colspan="2">How to Play :</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="images/arrow-up-icon.png" width="48" /><img
+                        src="images/arrow-down-icon.png"
+                        width="48"
+                    /><img
+                        src="images/blank-keyboard-key-icon.png"
+                        width="48"
+                    />
+                </td>
+                <td>Arrows Up and Down to move and Space to shoot</td>
+            </tr>
+            <tr>
+                <td><img src="images/esc-icon.png" width="48" /></td>
+                <td>Esc to pause and resume the game</td>
+            </tr>
+            <tr>
+                <td>
+                    <img
+                        src="images/letter-uppercase-A-icon.png "
+                        width="48"
+                    /><img
+                        src="images/letter-uppercase-Z-icon.png "
+                        width="48"
+                    />
+                </td>
+                <td>
+                    'A' to generate one enemy and 'Z' to generate them
+                    randomly
+                </td>
+            </tr>
+    </tbody>
+        </table>
+    
+    <footer style="position: absolute; bottom: 0; right: 0;  text-align:right;">
+        <p>© 2021 Université de Lille.  </p>
+    </footer>
+    </body>
+</html>
