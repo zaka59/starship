@@ -6,11 +6,11 @@
 -   ensuite cloner le projet sur votre depot local.
     -   Pour cela: placer vous dans un dossier de votre choix:
         ```
-        $ git clone  https://gitlab-etu.fil.univ-lille1.fr/elkhayari/elkhayari-amevigbe-gaudiere-abbaci-js.git
+        $ git clone  <url_git>
         ```
 -   une fois cloné nous allons nous placer dans le repertoire du jeu avec la commande:
     ```console
-        $ cd elkhayari-amevigbe-gaudiere-abbaci-js/
+        $ cd starship/
     ```
 -   installation des modules nécessaires:
 
