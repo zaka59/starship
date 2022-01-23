@@ -115,8 +115,8 @@ export default class Game {
             case "Up":
                 this._starShip.moveUp();
                 break;
-            case "Q":
-            case "q":
+            case "ArrowDown":
+            case "Down":
                 this._starShip.moveDown();
                 break;
             case " ":
@@ -134,8 +134,8 @@ export default class Game {
             case "Up":
                 this._starShip.stopMoving();
                 break;
-            case "Q":
-            case "q":
+            case "ArrowDown":
+            case "Down":
                 this._starShip.stopMoving();
                 break;
             default:
